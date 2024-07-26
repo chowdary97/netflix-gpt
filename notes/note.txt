@@ -1,0 +1,20 @@
+Create a new netflix-gpt app using 
+ npx create-react-app netflix-gpt
+
+ Features
+ -------------------
+ - Login/SignUp
+   - Sign in/Sign Up
+   - Redirect Browse page
+
+ - Browse (Atfer authentication)
+   - Header
+   - Main Moview
+     - Trailer
+     - Title and Description
+     - Movie Suggestions
+       - MoviesList
+
+ - Netflix Gpt
+   - Search bar
+   - Movies suggestions
