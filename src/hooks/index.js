@@ -1,3 +1,4 @@
 import useNowPlayingMovies from "./useNowPlayingMovies";
+import usePopularMovies from "./usePopularMovies";
 
-export { useNowPlayingMovies };
+export { useNowPlayingMovies, usePopularMovies };
