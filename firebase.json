@@ -1,0 +1,7 @@
+{
+  "hosting": {
+    "site": "movies-2ec44-dff79",
+    "public": "build",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}
