@@ -1,16 +1,24 @@
 import React from "react";
 import Header from "./Header";
 import { useNowPlayingMovies, usePopularMovies } from "../hooks";
-import { MainContainer, SecondaryContainer } from "../components";
+import { MainContainer, SecondaryContainer, SearchGpt } from "../components";
+import { useSelector } from "react-redux";
 
 const Browse = () => {
+  const gptEnabled = useSelector((store) => store.gpt.gptEnabled);
   useNowPlayingMovies();
   usePopularMovies();
   return (
     <div>
       <Header />
-      <MainContainer />
-      <SecondaryContainer />
+      {gptEnabled ? (
+        <SearchGpt />
+      ) : (
+        <>
+          <MainContainer />
+          <SecondaryContainer />
+        </>
+      )}
     </div>
   );
 };

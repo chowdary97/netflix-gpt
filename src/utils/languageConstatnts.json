@@ -1,0 +1,14 @@
+{
+  "en": {
+    "search": "Search",
+    "searchForMovieRecommendations": "Search for movie recommendations"
+  },
+  "hindhi": {
+    "search": "खोज",
+    "searchForMovieRecommendations": "मूवी अनुशंसाएँ खोजें"
+  },
+  "telugu": {
+    "search": "వెతకండి",
+    "searchForMovieRecommendations": "సినిమా సిఫార్సుల కోసం శోధించండి"
+  }
+}

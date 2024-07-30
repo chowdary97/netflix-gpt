@@ -8,6 +8,9 @@ import VideoBackground from "./VideoBackground";
 import VideoTitle from "./VideoTitle";
 import MovieList from "./MovieList";
 import MovieCard from "./MovieCard";
+import SearchGpt from "./SearchGpt";
+import GptSearchBar from "./GptSearchBar";
+import GptMoviesSuggestions from "./GptMoviesSuggestions";
 
 export {
   Login,
@@ -20,4 +23,7 @@ export {
   VideoTitle,
   MovieList,
   MovieCard,
+  SearchGpt,
+  GptSearchBar,
+  GptMoviesSuggestions,
 };
