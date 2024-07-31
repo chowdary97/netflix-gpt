@@ -38,3 +38,8 @@ Create a new netflix-gpt app using
 
    more about .env file
    ----------------------------------
+
+
+
+
+   * if there is any information already in store don't make any api call
