@@ -19,3 +19,5 @@ export const SUPPORTED_LANGUAGES = [
     value: "telugu",
   },
 ];
+
+export const BASE_URL = "https://api.themoviedb.org/3"

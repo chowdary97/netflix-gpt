@@ -41,7 +41,7 @@ const Header = () => {
     <div className="absolute px-8 py-2 bg-gradient-to-b from-black w-full z-10 flex justify-between al">
       <img className="w-44 " src={LOGO_IMAGE} alt="logo" />
       <div>
-        <select
+     {gptEnabled &&   <select
           onChange={handleChange}
           className="px-4 py-2 m-2 bg-gray-600 text-white rounded-lg "
         >
@@ -50,7 +50,7 @@ const Header = () => {
               {language.label}
             </option>
           ))}
-        </select>
+        </select>}
         <button
           onClick={() => {
             toggleGptSearchComponent();

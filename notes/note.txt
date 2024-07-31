@@ -18,3 +18,23 @@ Create a new netflix-gpt app using
  - Netflix Gpt
    - Search bar
    - Movies suggestions
+
+
+
+
+   we have integrated gpt to get the movie recommendations for user search 
+   based on the output from gpt we integrate tmdb to movie information
+   so we try to make each call at a time for a movie to get information from tmdb servers 
+    ex: const gptsuggestmovies = [Bahubali, Gully Boy, Padmaavat, Veer-Zaara, Three Idiots]
+    const results = gptsuggestmovies.map(movie => getMovieInfo(movie))
+   so here results contains promises because map will not wait until we get response
+   so we use const tmdbresults = await promise.all(results)
+   now tmdbresults will wait until all promises are resolved and gives us results  
+
+
+
+   hiding the sensitive data
+   crate a .env file  
+
+   more about .env file
+   ----------------------------------
